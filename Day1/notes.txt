@@ -204,6 +204,79 @@ You can access the members of the class as
 
 object_name.method_name();
 
+_________________________________________________________
+
+Control Structures : 
+_____________________
+
+  Used to define the flow of the program. 
+
+There are 2 types of control structures known as 
+
+(i) Branching
+
+	if...else : Executes the statement(s) based on the 
+condition. 
+
+	if (condition) {
+	   statement(s);
+	} else {
+	   statement(s);
+	}
+
+switch...case : Used to define the menu-driven programs. 
+
+switch(expr) {
+   case expr1 :
+	statement(s);
+        break;
+   case expr2 :
+	statement(s);
+	break;
+   case expr3 : 
+	statement(s);
+	break;
+   case expr4 :
+	statement(s);
+	break;
+   default :
+	statement(s);
+	break;
+}
+
+(ii) Looping : 
+
+while loop : This loop executes all the statement(s) repeatedly until the condition remains true, if the condition remains false then it comes out of the loop. 
+
+For every loop, basically there are 3 phases known as 
+
+	(i) Initialization
+
+	(ii) Condition
+
+	(iii) Increment/Decrement 
+
+*** Initialization performed at the beginning of the loop ***
+
+*** Condition performed at the conditional part of the loop ***
+
+*** Increment/Decrement performed before closing the loop ***
+
+syntax : 
+________
+
+while(condition) {
+   statement(s);
+}
+
+
+
+
+
+
+
+
+
 
 
 
