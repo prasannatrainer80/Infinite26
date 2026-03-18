@@ -269,6 +269,25 @@ while(condition) {
    statement(s);
 }
 
+for loop : This loop executes all the statement(s) repeatedly until the condition remains true, if the condition remains false, then it comes out of the loop. 
+
+for(initialization;condition;increment/decrement) {
+   statement(s);
+}
+
+
+6 -> 1,2,3,6 
+
+do..while loop : This loop executes all the statements atleast once and then checks for the condition, if condition is true, then it repeats the statements else it comes out of the loop. 
+
+The min. execution of while loop is 0 times.
+The min. execution of do...while loop is 1 time.
+
+do {
+...
+...
+...
+} while(condition);
 
 
 
