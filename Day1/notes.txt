@@ -289,6 +289,32 @@ do {
 ...
 } while(condition);
 
+Arrays : An array is the finite ordered set of homogeneous elements, means all the elements belongs to same data type. 
+
+All the elements of the array are stored in successive memory
+locations. 
+
+You can declare an array as
+
+int[] a =new int[]{12,5,22,11,9}; then 
+
+a[0]=12;
+a[1]=5;
+a[2]=22;
+a[3]=11;
+a[4]=9;
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

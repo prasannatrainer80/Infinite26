@@ -13,7 +13,6 @@ public class DoWhileEx1 {
             System.out.println("Enter Your Choice(Y/N) ");
             choice = sc.next().charAt(0);
         } while(choice=='Y' || choice=='y');
-
     }
     public static void main(String[] args) {
         DoWhileEx1 obj = new DoWhileEx1();
