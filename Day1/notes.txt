@@ -66,3 +66,149 @@ _________________
 
 	(vi) Distributed : By using java, we can make all distributed and robust applications. 
 
+Java Architecture : 
+____________________
+
+	(i) Java Program : Java code that which stored with extension .java
+
+	(ii) Java Class : Java Code after compilation it converts into bytecode, then .class file will be created.
+
+	(iii) JVM (Java Virtual Machine) : It contains various components as 
+
+		(a) Class Loader : Used to load the classes, that which are required to run the program. There are 2 types of class loaders known as 
+
+			(i) Primordial Class Loder : Used to load all system classes which are required to run the program. 
+
+			(ii) Class Loader Objects : Used to load all user-defined classes which are required to run the program. 
+
+		(b) JIT Compiler : Used to convert bytecode into CPU specific format. 
+
+		(c) Execution Manager : Contains QUEUE of programs, which are ready to run, where we can execute the program. *** Before execution program needs to undergone the security authentication ***
+
+	(iv) Java API : It provides runtime env, that which allows you to run the java program.
+
+Data Types : 
+_____________
+
+	There are 2 types of data types as 
+
+	  (i) Value Types : int, float, double, char, Boolean 
+
+	  (ii) Reference Types : String, Object 
+
+You can print any value or message by using 
+
+System.out.println() : Used to display any value or message. 
+
+	System -> class
+	
+	out -> Console
+
+	println() -> Method. 
+
+System.out.println("Welcome to Java Programming...");
+
+You can define the method main as 
+
+	public static void main(String[] args) {
+	...
+	...
+	}
+
+main() method must be static, as no class object supposed to call the method main.
+
+The default package in java is java.lang
+
+The top level class in java is Object, the full form is java.lang.Object
+
+Scanner : This class allows you to read the input from the keyboard. 
+
+Scanner sc = new Scanner(System.in);
+
+next() : Used to read one word
+nextLine() : Used to read one entire sentence
+nextInt() : used to read an integer
+nextDouble() : used to read a double value.
+
+There are various types of operators as 
+
+	(i) Arithmetic Operators
+
+		+  -> Addition
+		-  -> Subtraction
+		*  -> Multiplication
+		/  -> Division
+		%  -> Remainder
+
+	(ii) Relational Operators
+
+		>  -> Greater Than
+		<  -> Less Than
+	       >=  -> Greater Than or Equals to
+	       <=  -> Less Than or Equal to
+	       ==  -> Equals to
+	       !=  -> Not Equals to 
+
+	(iii) Logical Operators
+
+		&& -> AND
+
+		|| -> OR
+
+		!  -> NOT 
+
+	(iv) Unary Operators (++,--)
+
+		int x=12;
+		x++  // Post Increment
+
+		++x  // Pre Increment 
+In Post Increment, at first it initialize old value and then it increments, as the updated value will be affected either in next statement or next expression. 
+
+In Pre Increment, at first it increments and assigns updated value in same statement, so the updated value affected at same line.
+
+Access Modifiers : 
+__________________
+
+(i) private : Allows you to access members within current class only. 
+
+(ii) public : Allows you to access members in entire application. 
+
+(iii) protected : Allows you to access members within current/derived class. 
+
+(iv) friendly : Allows you to access members within all classes of current package. 
+
+you can define any method as 
+
+access_modifier return_type method_name(parameter(s)) {
+....
+....
+}
+
+If no return type, then we need to prefix void for that. 
+
+private void show() {
+...
+...
+}
+
+You can create an object to the class, as 
+
+class_name obj = new class_name();
+
+Assume, class_name is Data, then 
+
+Data data = new Data();
+
+You can access the members of the class as 
+
+object_name.method_name();
+
+
+
+
+
+
+
+
+

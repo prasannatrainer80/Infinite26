@@ -1,0 +1,19 @@
+package com.java.day1;
+
+import java.util.Scanner;
+
+public class Calculation {
+    public static void main(String[] args) {
+        int a, b, c;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 2 Numbers    ");
+        a = sc.nextInt();
+        b = sc.nextInt();
+        c = a + b;
+        System.out.println("Sum is  " +c);
+        c = a - b;
+        System.out.println("Subtraction is  " +c);
+        c = a * b;
+        System.out.println("Multiplication is  " +c);
+    }
+}
