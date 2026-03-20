@@ -81,15 +81,192 @@ There are 2 types of constructors known as
 
 static variable : These are the variables, that which retains values irrespective of type of object. 
 
+package com.java.day2;
+
+public class StaticExample1 {
+    int count;
+    public void increment() {
+        count++;
+    }
+    public void show() {
+        System.out.println("Count is  " +count);
+    }
+
+    public static void main(String[] args) {
+        StaticExample1 obj1 = new StaticExample1();
+        StaticExample1 obj2 = new StaticExample1();
+        StaticExample1 obj3 = new StaticExample1();
+        obj1.increment();
+        obj2.increment();
+        obj3.increment();
+        obj1.show();
+        obj2.show();
+        obj3.show();
+    }
+}
+
+Inheritance : The concept of deriving a new class from already existing class known as inheritance, the class which derived
+known as derived class, the class from which its derived
+known as base class. 
+
+Through inheritance, we can reduce the size of the program.
+
+class First {
+...
+...
+...
+}
+
+class Second extends First {
+...
+...
+...
+}
+
+Once you create an object to Second class, then you can access
+all public/protected and friendly members of base class. 
+
+Quiz
+__________________________________________________________________
+
+class Hello {
+    public static void main(String[] args) {
+	System.out.println("5"+3+8); // 538
+	System.out.println("5"+(3+8)); // 511
+	System.out.println("5+3"+8); // 5+38
+    }
+}
+_______________________________________________________________
+
+class Hello {
+    public static void main(String[] args) {
+	int i =10;
+        int j= i++;
+	System.out.println(j + "  " +i);
+   }
+}
+
+_____________________________________________________________
+
+class Hello {
+    public static void main(String[] args) {
+	 int x;
+	 System.out.println(x);
+   }
+}
+
+___________________________________________________________
+
+class Hello {
+   static Boolean flag;
+   public static void main(String[] args) {
+	System.out.println(flag);
+   }
+}
+
+_____________________________________________________
+
+class Test {
+   public static void main(String[] args) {
+      int ch='A';
+      ch++;
+      System.out.println(ch);
+   }
+}
+
+__________________________________________________________
+
+class Test {
+   public static void main(String[] args) {
+	int i=9;
+	do {
+	  i--;
+	  System.out.println(i);
+	} while(i < 10);
+   }
+}
+___________________________________________________________
+
+class Test {
+   public static void main(String[] args) {
+	String[] names = {"Kaviya","Balu"};
+	System.out.println(names[0].equals("Kaviya"));
+   }
+}
+______________________________________________________________
+
+class Test {
+    public static void main(String[] args) {
+	int[] a ={12,5,9};
+	int[] b = a;
+	b[1]=33;
+	System.out.println(a[1] + " " +b[1]);
+   }
+}
+
+______________________________________________________________
+
+class Test {
+   public static void main(String[] args) {
+	int x=12;
+	System.out.println(x++ + ++x + x++);
+   }
+}
+______________________________________________________________
 
 
+public class P6 {
+	    public void check(int x) {
+        	if (x==2) {
+	            System.out.println("Hi");
+        	} else {
+	            System.out.println("Bye");
+     	   }
+	    }
+	    public static void main(String[] args) {
+        	new P6().check(2);
+	    }
+	}
+A) Compile Time Error B) Runtime Error C) hi D) Bye
 
 
-Constructors : 
+4) What would be output for below code
 
+public class P1 {
+    public void show(int x) {
+        switch(x) {
+            case 1 : 
+                System.out.println("Hi 1");
+            case 2 : 
+                System.out.println("Bye 2");
+            case 3 : 
+                System.out.println("Hello 3");
+            case 4 :
+                System.out.println("Test 4");
+            case 5 : 
+                System.out.println("Demo 5");
+            default :
+                System.out.println("Default Message");
+        }
+    }
+    public static void main(String[] args) {
+        P1 obj = new P1();
+        obj.show(3);
+    }
+}
 
+public class Test {
+	public static void main(String[] args) {
+	 	Test obj = new Test();
+		System.out.println(obj);
+	}
+}
 
-
+public class P34 extends String {
+    public static void main(String[] args) {
+        System.out.println("Strings are Immutable...");
+    }
+}
 
 
 
