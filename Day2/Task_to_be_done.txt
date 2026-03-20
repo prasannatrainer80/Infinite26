@@ -1,0 +1,39 @@
+1) Write a Program sample current bill 
+
+Ex : see 
+
+First 100 units 1.2 paise
+
+101 to 150 units 1.5 
+
+151 to 200 units 2 rs
+
+201 to 250 units 2.5
+
+251+ 3 rs
+
+Example : If units are 120 then
+
+(100 * 1.2) + (20 * 1.5)
+
+If units are 170 then 
+
+(100 * 1.2) + (50 * 1.5) + (20 * 2) 
+
+2) Write a Program to Print Twin Prime numbers of given range 
+
+Example : if 30 is limit then
+
+3,5
+5,7
+9,11
+11,13
+17,19
+
+like that to be printed
+
+3) Write a Program to check given number is perfect or not 
+
+Example : 6 -> Factors are 1,2,3,6 remove last one as 1,2,3 add all
+
+		1,2,3 sum is 6 as its perfect number
