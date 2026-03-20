@@ -1,0 +1,108 @@
+The top level class in java is Object 
+
+The default package in java is java.lang 
+
+Object class is having various methods as 
+
+toString() : Contains string representation, and it will be
+executed automatically once you print the object. 
+
+equals()
+
+hashCode() -> Displays the memory location address number.
+
+getClass() -> Used to display data type in object. 
+
+getClass().getSimpleName();
+
+__________________________________________________________
+
+Boxing and Unboxing : 
+
+the concept of converting value type to reference type
+known as boxing, and reference type to value type known as
+unboxing. 
+
+Object is the type that which can be used for boxing and 
+unboxing. 
+
+int a;
+
+a=12.5
+a=12;
+a="Hello";
+
+Object a;
+
+a=12.5;
+a=12;
+a="Hello";
+
+
+Enum : Used to store group of constant values. 
+Enums can be used as standard data types also. 
+
+Enum type {
+   value1,value2,valu3...}
+
+Method Overloading : The concept of using the same method name w.r.t. different data types or different parameters known as method overloading.  Here, the method name must be same, but no.of parameters or type of parameters we are using here are different. 
+
+class Test {
+    int a,b;
+    a=5;
+    b=4;
+}
+
+The above code raise an error as class contains 
+member variables and methods, we cannot write direct code
+in class. As you need to give default values to the object,
+then we need the help of constructors. 
+
+A constructor is a special member, used to initialize the member variables of the class, it is special because it has the same name as that of class name. 
+
+Rules : 
+________
+
+(I) It will not contains any return type
+
+(ii) It will not return any value
+
+(iii) It will be invoked automatically once the instance of the class created
+
+(iv) A constructor can be overloaded. 
+
+There are 2 types of constructors known as 
+
+(I) static constructor : These are called class constructors, which are used to initialize the static variables of the class, these constructors are invoked automatically before the control reaches the entry point.  These constructors cannot be overloaded. 
+
+*** In java, we don't have any static constructor, as static {} acts as static constructor ***
+
+(ii) instance constructor : These are the constructors that which are invoked automatically once the instance of the class created, these constructors can be overloaded. 
+
+static variable : These are the variables, that which retains values irrespective of type of object. 
+
+
+
+
+
+Constructors : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
