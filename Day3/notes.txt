@@ -60,3 +60,26 @@ Abstract class used to represent hierarchical data, where interface can be used 
 
 Abstract class provides security to the data. 
 
+__________________________________________________________
+
+default methods : These are called defender methods, where
+we can write code in the interface. 
+
+These methods are prefixed with default keyword. 
+
+_______________________________________________________________
+
+Properties : Provides an opportunity to protect a field in a class. If you want to control the internal behaviour of particular entity then we need the help of properties. Properties are also methods which are used for value type operations. 
+
+There are various types of properties known as
+
+(i) ReadOnly : Used for read values we cannot reset the value. 
+
+(ii) WriteOnly
+
+(iii) ReadWrite 
+
+What is the difference between == and equals() 
+
+
+

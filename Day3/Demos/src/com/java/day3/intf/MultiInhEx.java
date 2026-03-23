@@ -22,8 +22,7 @@ class Demo implements IOne, ITwo {
 }
 public class MultiInhEx {
     public static void main(String[] args) {
-        Demo demo = new Demo();
-        demo.name();
-        demo.email();
+        DemoInfinite demo = new DemoInfinite();
+        demo.showInfo();
     }
 }
