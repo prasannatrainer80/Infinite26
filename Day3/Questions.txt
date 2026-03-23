@@ -1,0 +1,19 @@
+1) what is object oriented programming
+
+2) Explain oops features and classes
+
+3) JVM architecture
+
+4) Compiling and execution procedure of java program
+
+5) What are control structures
+
+6) Explain about array in detail
+
+7) What is boxing and unboxing
+
+8) Explain about Object class methods
+
+9) Implement any 10 string methods by urself
+
+10) What is method overloading
