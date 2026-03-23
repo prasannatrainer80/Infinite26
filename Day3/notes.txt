@@ -1,0 +1,62 @@
+super Keyword : If you want to send values from derived class to base class, then we need the help of super keyword. 
+
+It has 2 forms as 
+
+	(I) super as a constructor
+
+	(ii) super as a keyword. 
+
+
+Final Keyword : Final has various forms as
+
+final variable : Cannot be changed
+final method  : Cannot be overrided 
+final class  : Cannot be inherited 
+
+Abstract Class : A class that which can be created, but not implemented and instantiated known as abstract class. Abstract class contains abstract and non-abstract methods, abstract methods needs to be overrided mandatorily by the derived class. 
+
+Syntax : 
+
+abstract class class_name
+{
+   abstract method1();
+   abstract method2();
+}
+
+*** You cannot create an object to the abstract class ***
+
+interface : Java does not support the concept of multiple inheritance, to achieve this we need the help of interfaces. An interface contains method declaration and the implementation can be done in the corresponding class, You can add more than one interface to the particular class. 
+
+Interface can be added to the class by using implements keyword. 
+
+interface IOne {
+  method1();
+}
+
+interface ITwo {
+  method2();
+}
+
+class First implements IOne, ITwo {
+...
+...
+...
+}
+
+Difference between interface and abstract class : 
+__________________________________________________
+
+-> An abstract class contains both abstract and non-abstract methods, where interface contains only abstract methods. 
+
+-> Interface methods are public and abstract by default. 
+
+-> Multiple Inheritance can be achieved by using interfaces.
+
+-> An interface can be called from anywhere to anywhere. 
+
+When to use interface and abstract class 
+
+Abstract class used to represent hierarchical data, where interface can be used for specialization. 
+
+Abstract class provides security to the data. 
+
