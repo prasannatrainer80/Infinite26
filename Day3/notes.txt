@@ -81,5 +81,71 @@ There are various types of properties known as
 
 What is the difference between == and equals() 
 
+Inner Classes : A java inner class is a class defined entirely within the body of another class.  This mechanism logically groups classes that are only used in one place, increases encapsulation. 
+
+class OuterClass {
+    class InnerClass {
+   }
+}
+
+_______________________________________________________
+
+class First {
+   private void show() {
+	System.out.println("Show From First...");
+  }
+}
+
+class Second extends First {
+   void show() {
+      System.out.println("Show From Second...");
+   }
+}
+
+main() {
+   Second obj = new Second();
+   obj.show();
+}
+____________________________________________________________
+
+class Test {
+   public void show(double x) {
+	System.out.println("Double " +x);
+   }
+   public void show(Object x) {
+       System.out.println("Object  " +x);
+   }
+   public static void main(String[] args) {
+       new Test().show(12);
+   }
+}
+_____________________________________________________________
+
+class Test {
+   public void show(double x) {
+	System.out.println("Double " +x);
+   }
+   public void show(long x) {
+	System.out.println("Long  " +x);
+   }
+   public void show(Object x) {
+       System.out.println("Object  " +x);
+   }
+   public static void main(String[] args) {
+       new Test().show(12);
+   }
+}
+
+A jagged array is an array, that which contains list of arrays
+in that. 
+
+int[][] jagged = new int[3][];
+
+jagged[0]=new int[]{12,45,221};
+jagged[1]=new int[]{66,112,521};
+jagged[2]=new int[]{58,88,81};
+
+
+
 
 
