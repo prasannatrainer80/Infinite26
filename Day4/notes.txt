@@ -71,6 +71,64 @@ then show() all above pars will work.
 
 StringBuilder() : It is a mutable class, that which allows you to perform changes in the given string. 
 
+Exception Handling : It is a mechanism of handling the runtime errors during the execution of the program. 
+
+There are 2 types of errors known as 
+
+(i) Compile Time
+
+(ii) Runtime 
+
+To handle exceptions, we have 3 blocks known as 
+
+(i) try block : This block contains statements in which there is possibility of getting runtime errors, the statements which are placed in this block are treated as heavy weighted statement(s) as JVM 
+allocates excess memory to them.
+
+(ii) catch block : Once exceptions raised in try block, then the control will be forwarded to catch block, this block contains alternate statements for the exceptions raised in try block. 
+
+One try block can contains multiple catch blocks. 
+
+(iii) finally block : This block contains statements that needs to be executed mandatorily irrespective of try and catch blocks, this block is not mandatory, but all the statements which are placed in this block are executed as mandatory statements. 
+
+Exception is the top most class, from which all kinds of exceptions are derived. 
+
+syntax : 
+_________
+
+try {
+...
+...
+} catch (Exception e) {
+...
+...
+} finally {
+...
+...
+}
+
+There are 2 types of Exceptions known as 
+
+(i) Checked Exceptions : These are the exceptions that which occurs at compile time, during compilation JVM feels some erroneous code is there and stops the execution  at compile time, can be handled at method level by using throws keyword.
+
+(ii) Unchecked Exceptions : These are the exceptions that which occurs at runtime can be handled by using try...catch block. 
+
+throw keyword : If you want to raise any error object with message, then we need the help of throw keyword. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
