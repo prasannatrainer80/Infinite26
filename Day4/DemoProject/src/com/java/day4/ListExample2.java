@@ -8,6 +8,7 @@ public class ListExample2 {
     public static void main(String[] args) {
 //        List employs =  new ArrayList();
         ArrayList employs = new ArrayList();
+//        employs.add(1);
         employs.add(new Employ(1,"Bawin",82344.2));
         employs.add(new Employ(2,"Pavithra",99932.44));
         employs.add(new Employ(3,"Niteesh",90023.43));

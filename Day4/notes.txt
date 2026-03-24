@@ -33,4 +33,44 @@ Map Interface : Allows you to store data w.r.t. Key/Value Pairs. Here, the key c
 
 HashTable and HashMap are falling under Map interface. 
 
+Generics : Provides an opportunity to protect data. If you want to define data type at runtime then we need the help of generics. 
+
+Generics will be represented using <T>, as in place <T>, we can pass any value type/ref type or custom type. 
+
+Generic methods ensures write once and apply any data type. 
+
+Advantages :
+___________
+
+
+1) Write once and apply for all types
+
+2) Provides security to the data
+
+3) No Typecasting required
+
+4) Reduces the size of the program. 
+
+void show(int x) {
+...
+...
+}
+
+show();
+show(12);
+show(12,5);
+
+varargs(...) : If any method contain varargs(...) then we can pass to methods from zero to n no.of args. 
+
+void show(int...x) {
+...
+...
+}
+
+then show() all above pars will work.
+
+StringBuilder() : It is a mutable class, that which allows you to perform changes in the given string. 
+
+
+
 
