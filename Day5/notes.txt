@@ -72,6 +72,64 @@ and return any Boolean value.
 
 7) Consumers : These are also functional interfaces which will not return any value as performs some operations (void) type
 
+________________________________________________________________
+
+Files : A file is a collection of data, that which allows you to store output permanently. To deal with files, we need the help of java.io package. 
+
+File class : This class allows you to deal with files. 
+
+File obj = new File("filename");
+
+FileReader : Used to read data char/char and return the ascii value, it returns -1 once it reaches the eof. It reads only text files. 
+
+read() -> Used to read data char/char and returns ascii value.
+
+FileWriter : Used to write data char/char into file. 
+
+write() -> Used to write data char/char.
+
+FileInputStream : used to process data w.r.t. Stream of Bytes. 
+
+FileInputStream fin = new FileInputStream(filename);
+
+read() : used to read data char/char
+
+FileOutputStream : Used to write data w.r.t. Stream of byte
+
+DataOutputStream : Used to write Primitive Types into the file
+
+writeInt()
+writeUTF()
+writeDouble()
+writeBoolean()
+
+DataInputStream : Used to read primitive types from the file. 
+
+readInt()
+readUTF()
+readDouble()
+readBoolean()
+
+BufferedReader : Allows you to read input from the keyboard. 
+
+BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+readLine() : used to read one line of input. 
+
+ObjectOutputStream : used to write Objects into the file.
+
+writeObject() : this method used to write the objects into the file.
+
+ObjectInputStream : Used to read objects from the file.
+
+readObject() : this method used to read object from the file.
+
+Serilization : It is a process of writing the custom objects into the file. Any class objects to be stored in the file must be implemented with Serilizable interface. 
+
+
+
+
+
 
 
 
