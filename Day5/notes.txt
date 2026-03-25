@@ -1,0 +1,82 @@
+There are 2 types of exceptions known as 
+
+	(i) Checked Exceptions : These are the exceptions that which occurs at compile time, during compilation JVM feels some erroneous code is there and stops the execution at compile time, can be handled at method level by using throws keyword. 
+
+	(ii) Unchecked Exceptions : These are the exceptions that which occurs at runtime, can be handled by using try...catch block. 
+
+throws : This keyword will be at method level, used to ignore Exceptions at the time of coding. 
+
+throw : This keyword allows you to raise exception objects 
+based on the condition.
+
+Write a Program to accept a number if number < 0 then throw ArithmeticException, if number = 0 then throw ArrayIndexOutOfBoundsException 
+
+Custom Exceptions : System Exceptions inadequate to handle in all situations, to overcome this we need the help of custom exceptions. 
+
+Any class that which derived from Exception class can be treated as custom exception. 
+
+syntax : 
+________
+
+public class CustomException extends Exception {
+	CustomException(String error) {
+	   super(error);
+	}
+}
+
+-- Write a program to accept age and check eligible for voting or not. 
+
+If not raise user-defined exception VotingException 
+
+-- Write a Program to Perform Calculation as sum of 2 nos
+
+if any number < 0 then raise NegativeException
+if any number = 0 then raise NumberZeroException 
+
+______________________________________________________________________
+
+JDK 1.8 Features 
+
+1) Lambda Expressions : If you want to write any clear and 
+concise code, then lambda expressions are best. They acts
+as an anonymous method, as they enable passig code as paramerer\
+
+You can define lambda expression as (->) 
+
+Assume,we have an interface, that which contains some method
+to be written using lambda as
+
+interface obj = (params) -> {writecode};
+
+2) Functional Interface : If an interface contains only one abstract method, that would be treated as Functional Interface. 
+
+You can define functional interface by using annotation as 
+
+@FunctionalInterface
+
+3) Method References
+
+4) Optional Class : This class allows you to give alternate values for null values. Mainly this one will be used to handle NullPointerException 
+
+
+
+5) Streams : Allows you to perform 
+
+	-> Filterig
+	-> SOrt
+	-> Calculations
+	-> Mapping 
+
+6) Predicate : Allows you to check the condition 
+and return any Boolean value. 
+
+7) Consumers : These are also functional interfaces which will not return any value as performs some operations (void) type
+
+
+
+
+
+
+
+
+
