@@ -20,6 +20,20 @@ public class EmployBal {
         return employDao.showEmployDao();
     }
 
+    public Employ searchEmployBal(int empno) {
+        return employDao.searchEmployDao(empno);
+    }
+
+    public String deleteEmployBal(int empno) {
+        return employDao.deleteEmployDao(empno);
+    }
+
+    public String updateEmployBal(Employ employUpdated) throws EmployException {
+        if (validateEmploy(employUpdated)==false) {
+            throw new EmployException(sb.toString());
+        }
+        return employDao.updateEmployDao(employUpdated);
+    }
     public String addEmployBal(Employ employ) throws EmployException {
         if (validateEmploy(employ)==false) {
             throw new EmployException(sb.toString());
