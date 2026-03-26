@@ -1,0 +1,15 @@
+A thread is a sequential execution of path of program, In multi-threading more than one task can be performed in a single program simultaneously.  If you want to make best utilization of CPU resources, then we need the help of multi-threading, as idle time kept to minimum.
+
+There are various methods in multi-threading as 
+
+(I) start() : used to invoke a thread
+
+(ii) sleep() : Makes a thread to wait for specific millseconds time
+
+(iii) run() : Once you invoke the start(), the code which is in run() gets executed. 
+
+Synchronization : If two or more threads trying to access the same resource at the same time, it leads to strange results, that problem known as synchronization. To overcome this, unless one thread leaves the particular location another thread will not be entered. 
+
+
+
+
