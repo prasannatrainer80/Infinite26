@@ -1,0 +1,23 @@
+Locks : 
+
+We can block the code by using synchronized keyword,
+
+aprt from that if we want to apply Explit Lock, then in thread concurrency we have feature called ReetranLock
+
+Provides more flexible mechasim for thread synchronzeation
+
+It allows thread to enter a lock multiple times without causing deadlock.
+It allows you to perform Manaul locking when new resource comes into the picture
+
+As the name Reetrancy ensures that the same thread can qcuire lock multiple times each lock must be paired with the corresponding unlock.
+
+You can create an object as 
+
+ReetranLock obj = new ReetranLock();
+
+obj.lock()
+obj.unlock();
+
+
+
+

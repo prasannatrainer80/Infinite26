@@ -1,0 +1,71 @@
+Database : A database is set of interrelate files, stored with min. redundancy to serve many users work concurrently. 
+
+DBMS (Database Management System) : The software that which allows you to perform transactions on data like 
+
+	(i) Adding New Data
+
+	(ii) Modifying already existing Data
+
+	(iii) Removing Unwanted Data 
+
+known as DBMS. 
+
+Objectives : 
+____________
+
+	(i) Provides an efficient and convenient env, that which allows you to store data in and retrieve data 
+
+	(ii) Granting Access on data to users based on their credentials
+
+Drawbacks : 
+____________
+
+	(i) Data Redundancy
+
+	(ii) Risk to Data Integrity
+
+	(iii) Data Isolation
+
+	 (iv) Difficult Access to Data
+
+	 (v) Unsatisfactory Security Measures 
+
+
+There are various attributes as
+
+(i) General Attribute : Which exists by default. {Given by using Elipse symbol)
+
+(ii) Derived Attribute : Value will come based on calculation{ Given by using dotted elipse symbol)
+
+(iii) Multi-Valued Attribute : Which contains more than one value. {Given by multiple elipse symbols}
+
+There are various types of relationships known as
+
+	(i) One to One : One field in the first entity exactly matches with one field in the second entity. 
+
+	(ii) One to Many : One record in first entity will have many corresponding records in second entity. 
+
+	(iii) Many to Many : One record in first entity will have many records in second entity vice-versa. 
+
+There are various types of keys as
+
+Employ(Empno,Ename,Job,Sal,SalaryDate,DeptName,AadharNo)
+
+1) Candidate Key : Any key that which uniquely identifies rows of a able known as candidate key. (Empno, AadharNo)
+
+2) Primary Key :One of the candidate key needs to be chosen as primary key based on priority. (Empno) -> Primary Key cannot be NULL or Primary Key cannot be duplicated.
+ 
+3) Alternate Key : Any key that which is candidate key, but not rimary key known as alternate key. {aadharNo}
+
+4) Composite Key : Any key that which uniquely identifies rows of a table made up of more than one attribute known as composite key. 
+{Empno+SalaryDate}
+
+5) Foreign Key : Primary key in the parent table will be foreign key in the child table. 
+
+
+
+
+
+
+
+
