@@ -1,0 +1,16 @@
+1) Display last occurrence of given char in a string
+
+Example : Take word as 'keerthi' as char 'e' repeated 2 times as last time it exists at 3rd position as to be printed.
+
+2) Print all Names of Employ table in Sentence case as first char capital and remaining are lower case
+
+3) Take fullName and split into firstName and lastName 
+
+Example : Take fullName as Aashik Radhakrishnan split as
+	FirstName : Aashik
+	LastName : RadhaKrishnan
+
+4) Display first day of the current month
+
+5) Display all Fridays of current month
+
