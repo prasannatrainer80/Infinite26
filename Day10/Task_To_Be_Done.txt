@@ -1,0 +1,30 @@
+LeaveDetails
+_____________
+
+leaveId (INT)
+empId (INT)
+leaveStartDate (utilDate)
+leaveEndDate (utilDate)
+leaveReason (String)
+leaveType(ENUM(EL/PL/ML)
+leaveStatus(ENUM(PENDING/ACCEPTED/REJECTED)
+noOfDays INT
+
+1) AddLeave(ApplyLeave)
+2) SearchLeave
+3) ShowAllLeaves
+4) UpdateLeave
+5) DeleteLeave
+
+
+Calculations : 
+noOfDays to be calculated automatically example leave from 01-04-2026 to 03-04-2026 then noOfDays are 3
+leaveStatus must be PENDING by default
+
+Validations : 
+-> LeaveStartDate cannot be YesterDay Date
+-> LeaveEndDate Cannot be YesterDay Date
+-> LeaveStartDate cannot be greater than leaveEndDate 
+
+If fails raise user-defined exception class as LeaveException
+
