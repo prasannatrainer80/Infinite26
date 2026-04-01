@@ -1,0 +1,43 @@
+In SDLC, Object Oriented Programming Place vital role when it comes to writing flexible, scalable and maintainable code. 
+
+To ensure Object Oriented Design, we need to Follow the SOLID principles
+
+The SOLID principles are defined by C. Martin as
+
+1) S  -> Single Responsibility Principle (SRP)
+
+2) O  -> Open/Closed Principle (OCP)
+
+3) L  -> Liskov's Substitution Principle (LSP)
+
+4) I  -> Interface Segregation Principle (ISP)
+
+5) D  -> Dependency Inversion Principle (DIP)
+
+1) Single Responsibility Principle means a Class should have only one reason to change means every class have multiple responsibility or single job or single purpose. We cannot deviate from actual purpose.
+
+2) Open/Closed Principle (OCP) : This principle ensures that Software classes (classes/methods/modules) should be open for extension, but closed for modification. 
+
+3) Liskov's Substitution Principle
+
+	Derived classes must be substitutable for their parent classes.
+
+	Ensures that any class that is the child of parent class should be usable in the place of parent class without replacing the code.
+
+Objects of super class should be replaced with objects of sub class without affecting the correctness of the program. 
+
+4) ISP (Interface Segregation Principle)
+
+interface IAnimal {
+  void eat();
+  void fly();
+  void hunt();
+}
+
+class Lion implements IAnimal {
+
+}
+
+class Sparrow implements IAnimal {
+
+}
