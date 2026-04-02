@@ -41,3 +41,10 @@ class Lion implements IAnimal {
 class Sparrow implements IAnimal {
 
 }
+
+Dependency Inversion Principle 
+
+	Ensures high level modules should not depend on low-level modules...Both should depend on abstractions.
+
+Means simple way we have to say is classes should rely on interfaces or abstract classes rather than concreate implementation.
+

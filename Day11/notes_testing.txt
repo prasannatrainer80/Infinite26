@@ -1,0 +1,74 @@
+Quality : 
+__________
+
+Quality is defined as justification of All requirements of a customer on a product. 
+
+It is defined as not only as justifications of requirements, but also the presence of value (user-friendliness).
+
+Quality is not defined in the product it is defined in the customers mind. 
+
+Testing : 
+
+     It is a process in which the defects are identified, isolaed and sunjected for rectification and ensures that the product is defect free inorder to producre the quality of product in the end and hence leads to customer satisfaction. 
+ 
+The proof of testing phase is a quality product. 
+
+Test Case :   
+___________  
+
+   It is an idea of a test engineer to test something on an application based on the requirements. 
+
+It contains various phases as 
+
+	1) Actual Result
+
+	2) Expected Result
+
+	3) FAIL/SUCCESS
+
+	4) TestCase Title 
+
+Testing Methodologies : 
+
+   1) Black Box Testing 
+   
+If one performs testing only onn the final part of an application without having the knowledge of structual part that method of testing is known as Black Box Testing (Testing an application without prior knkowledge on the domain/app known as Black Box Testing).  
+
+   2) White Box Testing 
+   
+If one performs testing on the structural part w.r.t. Domain Knowledge and applciation flow known as white box testing. Usually developers will do the white box testing. 
+
+   3) Grey Box Testing 
+   
+         It is a method of testing in which one will perform testing on both the final part of as welll as the structual part of an applciation, USually the test engineers who has teh additional knowledge of structual part will be involved in grey box testing. 
+
+
+1) Defect : If a tester identifies some mistake known as defect. 
+
+2) Bug : If the programmer accepts the defect, then it is known as bug. 
+
+*** All defects are not bugs, but all bugs are defects ***
+
+3) Error : If the programmer identifies mistake in code, it is known as 
+error. 
+
+4) Fatal : If client identifies something known as fatal (which is critcal) 
+
+Severity : 
+   It ensures that the seriousness of the bug. It is classified into 4 types as 
+   
+  a) Fatal Sev 1 S1 1 
+  
+if at all the problems are related to navigational blocks or unavailable major functionality then such type of defects are treated as fatal defects. 
+  
+  b) Major :Sev 2 S2 2 
+  
+     If at all the major functionality not working accoint to the expectation then such type of defects are treated as major defects. 
+  
+  c) Minor : Sev 3 S3 3
+  
+If at all the problems related to the look and feel these are minor bugs. 
+  
+  d) Suggestions : Sev 4 S4 4 
+  
+If at all the problems are related to the value of the applciatino then such type of defects are treated as suggestions (Ex : Any spelling/grammer mistakes in the given applciation) 
