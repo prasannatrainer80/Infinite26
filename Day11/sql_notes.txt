@@ -1,0 +1,40 @@
+Group By : Used to generate summary report on the table field(s) specified. 
+
+-- Having : This clause used to check the condition on 
+aggregate fields.
+
+The diff. between WHERE clause and HAVING clause are 
+
+WHERE clause used to check condition on table field(s) 
+
+HAVING clause used to check condition on aggregate field(s)
+
+Subquery : A subquery is a query, that which is having another query inside. The query which is inside known as inner query, the query which is outside known as outer query.  Every time, the result of the INNER Query will be send as an input to the outer query. 
+
+Sometimes it is not possible to extract data by using single select statement. To overcome this we need the help of subquery. 
+
+-- Display max salary from Emp table
+
+There are various types of subqueries known as
+
+1) Single-Row Subquery : A subquery that which returns only one
+row to the child query known as single-row subquery. 
+
+2) Multi-Row Subquery : A subquery that which returns more 
+than one row to the corresponding query known as multi-row
+subquery. 
+
+Multi-Row Subqueries can be handled by using 2 operators known as
+
+ALL -> Acts as AND Operator empno<> ALL(10,20,30) means 
+
+	Empno <> 10 AND Empno <> 20 AND Empno <> 30
+
+ANY -> Acts as OR Operator empno = ANY(10,20,30) means 
+
+empno=10 OR empno=20 OR empno=30 
+
+
+
+
+
