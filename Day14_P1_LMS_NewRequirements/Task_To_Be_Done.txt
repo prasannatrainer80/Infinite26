@@ -1,0 +1,18 @@
+1) Dont Deduct leaves on Weekends 
+
+2) Dont Deduct Leaves on Special Days 
+
+Example May 1st is Holiday
+
+	Aug 15 is public holiday
+
+        Dec 25 is public holiday
+Example this year May 1 falling Friday...So if u apply
+leave from May 1 to May 4 only 1 day to be deducted.
+
+3) If employee don't have manager his leave to be approved
+automatically. Example for employee 1000 no manager 
+in applyLeave portion change the status as APPROVED and 
+give message as LeaveApplied and Approved Automatically
+
+
