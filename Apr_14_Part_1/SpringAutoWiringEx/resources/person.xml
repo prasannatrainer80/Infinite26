@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           https://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           https://www.springframework.org/schema/context/spring-context.xsd">
+  <context:annotation-config />
+  <bean id="jobDetails" class="com.infinite.spr.JobDetails">
+    <property name="job" value="Software Associate" />
+    <property name="company" value="Infinite" />
+    <property name="location" value="Bangalore" />
+  </bean>
+  <bean id="personDhivya" class="com.infinite.spr.Person">
+    <property name="id" value="1" />
+    <property name="name" value="Dhivya" />
+    <property name="family">
+      <bean class="com.infinite.spr.Family">
+        <property name="city" value="Chennai" />
+        <property name="state" value="TN" />
+      </bean>
+    </property>
+  </bean>
+  <bean id="personBalu" class="com.infinite.spr.Person">
+    <property name="id" value="2" />
+    <property name="name" value="Balu" />
+    <property name="family">
+      <bean class="com.infinite.spr.Family">
+        <property name="city" value="Cudalore" />
+        <property name="state" value="TN" />
+      </bean>
+    </property>
+  </bean>
+  <bean id="personMega" class="com.infinite.spr.Person">
+    <property name="id" value="3" />
+    <property name="name" value="Mega" />
+    <property name="family">
+      <bean class="com.infinite.spr.Family">
+        <property name="city" value="Selam" />
+        <property name="state" value="TN" />
+      </bean>
+    </property>
+  </bean>
+</beans>
