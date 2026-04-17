@@ -1,0 +1,35 @@
+Spring MVC 
+
+     MVC is a java framework which used to build web applications. It follows the Model-View-Controller design pattern.  It implements all the basic features of a core spring framework like inversion of control, Dependency Injection. 
+
+Spring MVC provides an elegant solution to use MVC in spring framework by the help of DispatcherServlet. This class receives the incoming request and maps it to the right resource such as controller, model and views. 
+
+Model -> A model contains the data of the application, a data can be a single object or collection of objects. 
+
+Controller -> Controller contains the business logic of an application, You can make any class as Controller using @Controller annotation 
+
+View -> View represents the provided information in a particular format, JSP+JSTL combination can be used to create view page. 
+
+Front Controller -> In Spring WEB MVC, the DispatcherServlet class works as the front controller, responsible for manage the flow of application. 
+
+How the way the MVC application will work 
+
+1) Whenever you send any request to mvc app, the incoming request is intercepted by the DispatcherServlet that works as the front controller
+
+2) The DispatcherServlet gets an entry for handler mapping from the XML file and forwards the request to the controller
+
+3) The Controller returns an object of ModelAndView
+
+4) The DispatcherServlet checks the entry of view resolver in the XML file, and invokes the specified view component.
+
+Advantages : 
+____________
+
+  -> Separte Roles : The Spring MVC separates each role, where the model object, controller, command object, view resolver, DispatcherServlet, validator can be fulfilled by a specialized object
+
+  -> Light-Weight : Uses light-weight servlet container to develop and deploy your application
+
+  -> Rapid Development : MVC facilitates fast and parallel development
+
+  -> Easy to Test : Generally we create JavaBeans classes that enable you to inject test data using the setter methods
+
