@@ -1,0 +1,10 @@
+You need finish AddFeeback
+
+But instead of textbox in Subject, load the subjects of particular 
+instructor
+
+After taking the feedback, then I need summary report as
+
+Instructor Prasanna Subject C# 4 voted as Excellent
+3 voted as Good 1 Voted as adequate 1 voted as inadequate
+
