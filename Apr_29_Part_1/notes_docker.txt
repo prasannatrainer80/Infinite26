@@ -1,0 +1,87 @@
+Docker 
+
+Docker is a centralized platform for packaging, deploying and running applications. Before Docker, many users face the problem that a particular code is running in developer's system but not in the user's system. So, the main reason to develop docker is to help developers to develop applications easily, ship them into containers and can be deployed anywhere. 
+
+Docker includes components such as 
+
+	Docker client, Docker server, Docker machine, Docker hub, Docker composes etc...
+
+Docker contains are light-weight alternatives of virtual machine, it allows developers to package up the application with all its libraries and dependencies, and ship it as a single package.  No need to allocate any excess RAM, and disk space for applications, it automatically generates storage and space according to the application requirement. 
+
+Why Docker 
+__________
+
+    Docker designed to benefit both the developer and system administrator, the following reasons to use Docker is 
+
+	-> Docker allows us to easily install and run the software without worrying about setup and dependencies
+
+	-> Developers use Docker to eliminate machine problems, 
+
+	-> Operators use Docker to run and manage apps in isolated containers for better compute density. 
+
+	-> Docker uses less memory
+
+	-> Provides light-weight virtualiation
+
+	-> Does not require full OS to run applications
+
+Docker Architecture 
+
+Docker Daemon 
+
+	Runs on the hosting operating system, responsible for running containers to manage docker services. Docker daemon communicates with other daemons, it offers various docker objects such as images, containers, networking and storage
+
+Docker Architecture 
+
+1) Docker Client
+
+	Uses commands and REST APIs to communicate with the Docker Daemon (Server), when a client runs any docker command on docker client terminal, the client terminal sends these docker commands to the Daemon, *** Docker client has an ability to communicate with more than one docker daemon ***
+
+2) Docker Host 
+
+	Used to provide an environment to execute and run applications, contains the daemon, images, containers and storage
+
+3) Docker Registry
+
+	Registry manages and stores the Docker images
+
+Docker Container is a running instance of an image, you an use command line interface (CLI) commands to run, start, stop, move or delete a container.  You can also provide configuration for the network and environment variables, Docker container is an isolated and secure application platform, but it can share and access to resources running in a different host or container. 
+
+Docker image is a read-only template with instructions for creating a Docker container, Docker image is a described in text file as Dockerfile
+
+Dockerfile is a text document that contains commands that are used to assemble an mage, we can use any command that call on the command line, Docker builds images automatically by reading the instructions from the Dockerfile. 
+
+FROM 
+
+   Used to set base image for subsequent instructions
+
+LABEL
+
+   We can add labels to an image to organize images of our project. We need to use LABEL instruction to set label for the image
+
+RUN
+
+    The instruction used to execute any command of the current image
+
+CMD
+  
+   This is used to execute application by the image. 
+
+COPY 
+
+   This instruction used to copy new files or directories from the source to the filesystem of the container as the destination
+
+WORKDIR
+
+   Used to set the working directory for any RUN, CMD and COPY instruction that follows it in a Dockerfile, if work directory does not exist, it will be created by default.
+
+
+
+
+
+
+
+
+
+
+
