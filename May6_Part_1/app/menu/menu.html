@@ -1,0 +1,13 @@
+<p>menu works!</p>
+<a [routerLink]="['/menu',{outlets:{'infinite':['employshow']}}]">Employ Show</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets:{'infinite':['employsearch']}}]">Employ Search</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets:{'infinite':['employadd']}}]">Add Employ</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets:{'infinite':['employupdate']}}]">Update Employ</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets:{'infinite':['employdelete']}}]">Delete Employ</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<hr/>
+<router-outlet name="infinite"></router-outlet>
