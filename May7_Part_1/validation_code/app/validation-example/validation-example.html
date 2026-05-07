@@ -1,0 +1,36 @@
+<p>validation-example works!</p>
+
+<form #validationForm="ngForm" (ngSubmit)="show(validationForm)">
+
+    Student No :
+    <input type="number"
+           name="sno"
+           [(ngModel)]="sno"
+           required />
+    <br/><br/>
+
+    <div *ngIf="validationForm.submitted && !isValid">
+        <p style="color:red;">
+            Please Enter Student No...
+        </p>
+    </div>
+
+    <br/>
+
+    City :
+    <input type="text"
+           name="city"
+           id="city"
+           [(ngModel)]="city"
+           #cityRef="ngModel"
+           required />
+
+    <br/><br/>
+
+    <div *ngIf="cityRef.untouched">
+        Its Not Touched Yet
+    </div>
+
+    <input type="submit" value="Login" />
+
+</form>
