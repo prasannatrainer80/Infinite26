@@ -1,0 +1,9 @@
+<p>menu works!</p>
+<a [routerLink]="['/menu',{outlets:{'infinite':['addemploy']}}]">Add Employ</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets:{'infinite':['showemploy']}}]">Show Employ</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a [routerLink]="['/menu',{outlets:{'infinite':['generatetoken']}}]">Generate Token</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<hr/>
+<router-outlet name="infinite"></router-outlet>
