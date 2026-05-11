@@ -1,0 +1,27 @@
+<p>first works!</p>
+<!-- 
+<p>
+  Trainer Name is : <b>{{trainer}}</b>
+</p>
+
+<p>
+  Company Name is : <b>{{company}}</b>
+</p> -->
+
+<a
+  [routerLink]="[
+    '/first',
+    {
+      outlets: {
+        infinite: ['second', trainer, company]
+      }
+    }
+  ]">
+  Second
+</a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type="button" value="Third" (click)="third()" />
+<hr/>
+<router-outlet name="infinite"></router-outlet>
