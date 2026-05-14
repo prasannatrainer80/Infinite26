@@ -1,0 +1,47 @@
+React Hooks : 
+_______________
+
+useContext : This react hook used to share data between 
+components without passing props manually through every level.
+
+We can share any kind of data as 
+
+  -> Theme
+  
+  -> Logged-in User
+  
+  -> Language
+
+  -> Styling etc
+
+You can implement context, using createContext()
+
+after createContext(), if you want to use that 
+
+useContext we need to use
+
+UseRef : This react hook used to access elements of the component
+directly, store mutable values without re-rending the component
+
+const refName = useRef(initialvalue);
+
+Why useRef used ???
+
+
+   -> Accessing HTML elements directly
+
+   -> Storing Previous Values
+
+   -> Avoiding unnecessary re-renders
+
+UseState expect re-render of component, where useRef never expects to re-render the component. 
+
+UseMemo : This react hook allows you to 
+
+	-> Memorize (store/cache) expensive calculations
+	
+	-> Prevent unnecessary recalculations during re-rending
+
+It very effective as calculation happens automatically when the dependency control values changes. 
+
+
