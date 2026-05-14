@@ -1,0 +1,9 @@
+First 3 frs to be done
+
+1) Create an account but status must be inactive and send mail one autogenerted password (8 to 12 chars alphanumeric)
+
+2) First login to be happen by using password by mail, then change password screen to be generated and password updated, status active
+
+3) Forgot password, need to share otp to mail, if otp is correct then only need to change password
+
+Make Spring Boot Project + React UI
