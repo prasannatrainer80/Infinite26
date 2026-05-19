@@ -1,0 +1,103 @@
+npm install --save-dev mocha chai jsdom jsdom-global @testing-library/react
+
+----------------------------------------------------------------
+
+1) Import React
+import React from 'react';
+
+This imports the React library.
+
+Required for rendering React components in the test file.
+
+2) Import Testing Functions
+
+import { render, screen } from '@testing-library/react';
+
+From React Testing Library:
+
+Function	Purpose
+render()	Loads component into virtual DOM
+screen		Used to find HTML elements
+
+3) Import Component
+
+import First from '../components/first/first';
+
+Imports your First component for testing.
+
+Your component:
+
+const First = () => {
+  return(
+    <div>
+      <p>Welcome to React My First Component...</p>
+    </div>
+  )
+}
+
+4) describe()
+
+describe('First Component Testing', () => {
+
+describe() groups related test cases.
+
+Think of it like:
+
+Test Suite Name
+
+Example:
+
+First Component Testing
+5) test()
+test('should render welcome message', () => {
+
+Defines one test case.
+
+Meaning:
+
+Check whether component displays welcome message
+6) render()
+render(<First />);
+
+This loads the component into a virtual browser (virtual DOM).
+
+Equivalent to:
+
+<First />
+
+being shown on screen.
+
+7) screen.getByText()
+const textElement =
+  screen.getByText('Welcome to React My First Component...');
+
+Searches HTML for matching text.
+
+It finds:
+
+<p>Welcome to React My First Component...</p>
+
+Stores that element into:
+
+textElement
+8) expect()
+expect(textElement).toBeInTheDocument();
+
+Assertion statement.
+
+Checks whether the element exists in the rendered component.
+
+If found:
+
+PASS
+
+If not found:
+
+FAIL
+Execution Flow
+Step-by-Step
+1. Import component
+2. Render component
+3. Search text in UI
+4. Verify text exists
+5. Test passes
